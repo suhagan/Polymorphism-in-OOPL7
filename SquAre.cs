@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Polymorphism_in_OOP
 {
-	public class cclassSquare: pclassGeometry
+	public class SquAre: GeoMetry
 	{
         /*  special property of square is all arms are of same length. 
          *  so, created one special property: squareSide.
@@ -11,7 +11,7 @@ namespace Polymorphism_in_OOP
 
 
         //constructor to creat object
-        public cclassSquare(double sideArmA)
+        public SquAre(double sideArmA)
         {
             squareSideA = sideArmA;
         }

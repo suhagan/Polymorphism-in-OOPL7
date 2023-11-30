@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Polymorphism_in_OOP
 {
-	public class pclassGeometry
+	public class GeoMetry
 	{
         public virtual double Area()
         /*In OOP, a child class can override a method from parent class

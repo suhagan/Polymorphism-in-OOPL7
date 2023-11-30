@@ -1,13 +1,13 @@
 ﻿using System;
 namespace Polymorphism_in_OOP
 {
-	public class cclassCircle:pclassGeometry
+	public class CirCle:GeoMetry
 	{
         // own properties for circle
         public double circleRadius { get; set; }
 
         // circle object constructor
-        public cclassCircle(double raDius)
+        public CirCle(double raDius)
         {
             circleRadius = raDius;
         }

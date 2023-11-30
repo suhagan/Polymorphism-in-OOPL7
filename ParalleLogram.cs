@@ -1,14 +1,14 @@
 ﻿using System;
 namespace Polymorphism_in_OOP
 {
-    class cclassParallelogram : pclassGeometry
+    class ParalleLogram : GeoMetry
     {
         //own properties of Parallelogram
         public double Base { get; set; }
         public double Height { get; set; }
 
         //parallelogram object constructor
-        public cclassParallelogram(double @base, double height)
+        public ParalleLogram(double @base, double height)
         {
             Base = @base;
             Height = height;

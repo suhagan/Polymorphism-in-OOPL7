@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Polymorphism_in_OOP
 {
-	public class cclassRectangle:pclassGeometry
+	public class RecTangle:GeoMetry
 	{
         
             // own properties of rectangle
@@ -9,7 +9,7 @@ namespace Polymorphism_in_OOP
             public double recwiDth { get; set; }
 
             // rectangle object constructor
-            public cclassRectangle(double lenGth, double wiDth)
+            public RecTangle(double lenGth, double wiDth)
             {
                 reclenGth = lenGth;
                 recwiDth = wiDth;
