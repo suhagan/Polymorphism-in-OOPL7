@@ -3,12 +3,12 @@ namespace Polymorphism_in_OOP
 {
 	public class cclassEllipse:pclassGeometry
 	{
-        // properties for ellipse
+        // own properties for ellipse
         public double majorAxis { get; set; }
         public double minorAxis { get; set; }
 
 
-        // constructor
+        // ellipse object constructor
         public cclassEllipse(double majorAx, double minorAx)
         {
             majorAxis = majorAx;

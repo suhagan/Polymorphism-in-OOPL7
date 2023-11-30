@@ -3,16 +3,16 @@ namespace Polymorphism_in_OOP
 {
 	public class cclassCircle:pclassGeometry
 	{
-        // properties for circle
+        // own properties for circle
         public double circleRadius { get; set; }
 
-        // constructor circle
+        // circle object constructor
         public cclassCircle(double raDius)
         {
             circleRadius = raDius;
         }
 
-        // method to calculate area of the circle
+        // method to calculate area
         public override double Area()
         {
             return Math.PI * circleRadius * circleRadius;

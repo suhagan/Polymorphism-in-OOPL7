@@ -4,11 +4,11 @@ namespace Polymorphism_in_OOP
 	public class cclassRectangle:pclassGeometry
 	{
         
-            // properties
+            // own properties of rectangle
             public double reclenGth { get; set; }
             public double recwiDth { get; set; }
 
-            // constructor to
+            // rectangle object constructor
             public cclassRectangle(double lenGth, double wiDth)
             {
                 reclenGth = lenGth;
