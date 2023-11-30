@@ -9,6 +9,9 @@ class Program
         
         GeoMetry[] shapes = new GeoMetry[5];
 
+        // values of the properties of different shapes are fixed and provided
+        // through parameters while calling the constructors. But it is possible
+        // to have runtime user defined values. It is in the next version.
         shapes[0] = new RecTangle(6, 13);
         shapes[1] = new SquAre(5);
         shapes[2] = new CirCle(4);
