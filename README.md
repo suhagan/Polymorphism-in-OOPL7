@@ -40,20 +40,21 @@ This is a school workshop assignment where we have practiced using polymorphism 
       for example:
 
       ```csharp
-     public Circle{
+     public Circle
+        {
            circleRadius = radiUs;
-     }
+        }
 
      public static void main[]
-     {
-       GeoMetry[] shapes = new GeoMetry[5];
-       shapes[0] = new RecTangle(6, 13);
-       shapes[1] = new SquAre(5);
-       shapes[2] = new CirCle(4);
-       shapes[3] = new ParalleLogram(7, 4);
-       shapes[4] = new ElliPse(5, 3);
-       
-     }
+        {
+           GeoMetry[] shapes = new GeoMetry[5];
+           shapes[0] = new RecTangle(6, 13);
+           shapes[1] = new SquAre(5);
+           shapes[2] = new CirCle(4);
+           shapes[3] = new ParalleLogram(7, 4);
+           shapes[4] = new ElliPse(5, 3);
+           
+        }
      ```
 
      - [ ] In this assignment I have tried to see the output in different ways, other than the assignment's requirement.
